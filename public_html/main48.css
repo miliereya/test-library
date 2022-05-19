@@ -1,0 +1,120 @@
+.add-form {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+.add-input {
+    padding: 5px 0;
+}
+.submit {
+    width: 100px;
+}
+.mainSection {
+	display: flex;
+  	flex-flow: wrap;
+  	padding-top: 60px;
+}
+.item {
+  	width: 100px;
+  	height: 300px;
+  	border: 1px solid grey;
+  	margin: 0 10px 10px 0
+}
+.dnone {
+	display: none;  
+}
+.dflex {
+	display: flex;
+  	width: 400px;
+  	margin: 0 auto;
+  	flex-direction: column;
+  	height: 180px;
+  	justify-content: space-between;
+}
+h1 {
+	text-align: center;
+  	text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  .dflex{
+  	width: 80%;
+  }
+}
+button {
+	background-color: #76c2de;
+}
+.create-book {
+	width: 200px;
+  	height: 270px;
+  	border-radius: 10px;
+  	background-color: #cfb8b9;
+  	border: 2px #000000 solid;
+  	text-align: center;
+  	margin-right: 25px;
+  	margin-bottom: 25px;
+}
+.create-book input{
+	border-radius: 5px;
+  	width: 80%;
+  	border: none;
+  	margin-top: 10px;
+  	padding: 5px 3px;
+}
+.read-span {
+	margin-top: 7px;
+}
+.create-book button {
+	background-color: #e3d5d6;
+}
+header {
+	position: fixed;
+  	height:56px;
+  	background-color: white;
+  	display: flex;
+  	justify-content: space-between;
+  	width: 60%;
+}
+.link {
+	text-decoration: none;
+  	color: #cfb8b9;
+}
+.link:hover {
+	color: #212529;  
+}
+.reg-wrapper {
+	padding-top: 60px;
+}
+.item {
+	width: 200px;
+  	height: 270px;
+  	border-radius: 10px;
+  	background: url(https://phonoteka.org/uploads/posts/2021-05/1619949053_33-phonoteka_org-p-fon-v-stile-renessans-33.jpg);
+  	border: 2px #000000 solid;
+  	text-align: center;
+  	margin-right: 25px;
+  	margin-bottom: 25px;
+}
+.item__Name {
+	font-size: 20px;
+  	color: white;
+  	margin-top: 10px;
+  	font-weight: bold;
+  	text-decoration: underline;
+}
+.item__Author {
+	font-size: 18px;
+  	color: #802626;
+  	font-weight: bold;
+}
+.item__Pages {
+	font-size: 20px;
+  	color: #FFF;
+}
+.item__Read {
+	background-color: white;
+  	padding: 4px;
+}
+.fs14 {
+	font-size: 14px;
+}
